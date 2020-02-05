@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* General web Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cairo:300&display=swap');
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+	/* Nav Margin */
+	.nav-padding{
+		padding: 15px 25px;
+	}
+	.nav-color{
+		background-color: #4F9FE2;
+	}
+	/* Logo Size */
+	.c-size{
+		height: 60px;
+		width: 90px;
+	}
+	/* date Font */
+	.date-font {
+		color: #afcae0;
+		font-family: 'Cairo', sans-serif;
+		font-weight: 200;
+	}
+/* CSS Menu start */
+
+.bar1, .bar2, .bar3 {
+	width: 40px;
+	height: 5px;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+  
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+	  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+	  transform: rotate(45deg) translate(-8px, -8px);
+	}
+	/* CSS Menu end */
+ }
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+ }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
