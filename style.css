@@ -90,7 +90,7 @@ table {
 	  transform: rotate(45deg) translate(-8px, -8px);
 	}
 	/* CSS Menu end */
-	/* Card Section start */
+	/* Matches Card Section start */
 	#card {
 		height: 45vh;
 		background-color: #66BEE6;
@@ -118,7 +118,14 @@ table {
 	.border-card {
 		border-radius: 16px 16px 0 0;
 	}
-	/* Card Section end */
+	/* Matches Card Section end */
+	/* News card start */
+	.custom-size {
+		height: 25px;
+		width: 12px;
+	}
+	/* News card end */
+
  }
 
 /*  Small devices (landscape phones, 576px and up) */
