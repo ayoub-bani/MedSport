@@ -96,6 +96,7 @@ table {
 	#card {
 		height: 45vh;
 		background-color: #66BEE6;
+		margin-block-end: 6rem !important;
 	}
 	.card-head {
 		background-color: #132943;
