@@ -49,6 +49,8 @@ table {
 /* Cairo General web Fonts */
 @import url('https://fonts.googleapis.com/css?family=Cairo:300,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan&display=swap');
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 	/* Nav Margin */
@@ -124,19 +126,32 @@ table {
 		height: 8rem;
 	}
 	.custom-card-title{
+		
+		font-family: 'Baloo Bhaijaan', cursive;
+		font-weight: 400;
+	}
 
-		font-family: 'Cairo', sans-serif;
-	}
-	.card-info {
-		/* font-family: 'Cairo', sans-serif; */
-	}
 	.card-text {
-		/* font-family: 'Cairo', sans-serif; */
+		line-height: 1rem;
+		font-size: small;
 
 	}
 	.card-info img {
 		height: 1rem;
 	}
+	/* card nav style start */
+	.nav-pills {
+		background-color: #63A4FF;
+		border-radius: 12px 12px 0 0;
+	}
+	.nav-pills .nav-link {
+		color: #c7deff;
+	}
+	.nav-pills .nav-link.active {
+		background-color: #132943;
+		border-radius: 12px 12px 0 0;
+	}
+	/* card nav style end */
 	/* News card end */
 
  }
