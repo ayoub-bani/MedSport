@@ -121,8 +121,21 @@ table {
 	/* Matches Card Section end */
 	/* News card start */
 	.custom-size {
-		height: 25px;
-		width: 12px;
+		height: 8rem;
+	}
+	.custom-card-title{
+
+		font-family: 'Cairo', sans-serif;
+	}
+	.card-info {
+		/* font-family: 'Cairo', sans-serif; */
+	}
+	.card-text {
+		/* font-family: 'Cairo', sans-serif; */
+
+	}
+	.card-info img {
+		height: 1rem;
 	}
 	/* News card end */
 
