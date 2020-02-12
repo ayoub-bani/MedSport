@@ -171,6 +171,13 @@ table {
 		color: #8c8c8c;
 	}
 	/* text line post style end */
+	/* read more padding start */
+	.read-more-padding {
+		background-color: #63A4FF;
+		border-radius: 12px 12px 0 0;
+    padding: 5px 97px 5px 97px;
+	}
+	/* read more padding end */
 	
 }
 
