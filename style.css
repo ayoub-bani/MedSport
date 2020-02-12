@@ -131,11 +131,11 @@ table {
 		font-family: 'Baloo Bhaijaan', cursive;
 		font-weight: 400;
 	}
-
+	
 	.card-text {
 		line-height: 1rem;
 		font-size: small;
-
+		
 	}
 	.card-info img {
 		height: 1rem;
@@ -160,16 +160,19 @@ table {
 	}
 	/* border custom style end */
 	/* text line post style start */
+	.text-line-post {
+		font-family: 'Baloo Bhaijaan', cursive;
+	}
 	.text-line-post__flip {
 		transform: scale(-1);
 		height: 25px;
 	}
 	.text-line-post__color {
-		color: #707070;
+		color: #8c8c8c;
 	}
 	/* text line post style end */
-
- }
+	
+}
 
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
