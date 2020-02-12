@@ -154,6 +154,20 @@ table {
 	}
 	/* card nav style end */
 	/* News card end */
+	/* border custom style start */
+	.custom-border hr {
+		border: .7px solid #cacaca;
+	}
+	/* border custom style end */
+	/* text line post style start */
+	.text-line-post__flip {
+		transform: scale(-1);
+		height: 25px;
+	}
+	.text-line-post__color {
+		color: #707070;
+	}
+	/* text line post style end */
 
  }
 
