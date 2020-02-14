@@ -175,9 +175,21 @@ table {
 	.read-more-padding {
 		background-color: #63A4FF;
 		border-radius: 12px 12px 0 0;
-    padding: 5px 97px 5px 97px;
+        padding: 5px 97px 5px 97px;
 	}
 	/* read more padding end */
+	/* Video Grid section start*/
+	/* med sport style start */
+	.med-style {
+		color: #1A395B;
+		font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+	}
+	.custom-hr hr{
+		border: 2px solid #1A395B;
+	}
+	/* med sport style end */
+	/* Video Grid section end*/
 	
 }
 
