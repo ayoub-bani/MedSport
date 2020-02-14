@@ -188,6 +188,23 @@ table {
 	.custom-hr hr{
 		border: 2px solid #1A395B;
 	}
+	/* card grid */
+	.custom-card-grid .card {
+		width: 12rem;
+		
+	}
+	.custom-card-grid .card-title {
+		font-family: 'Cairo', sans-serif;
+		font-weight: 100;
+		font-size: 0.8rem;
+		position: relative;
+		top: 17px;
+	}
+	.custom-image__size {
+	   height: 4rem;
+	   width: 4rem;
+	}
+
 	/* med sport style end */
 	/* Video Grid section end*/
 	
