@@ -201,13 +201,21 @@ table {
 		top: 17px;
 	}
 	.custom-image__size {
-	   height: 4rem;
-	   width: 4rem;
+		height: 4rem;
+		width: 4rem;
 	}
-
 	/* med sport style end */
 	/* Video Grid section end*/
-	
+	/*Leages section start  */
+	#league {
+		font-family: 'Cairo', sans-serif;
+	}
+	/* leages logo start */
+	.leagues-logo img {
+		height: 4rem;
+	}
+	/* leages logo end */
+	/*Leages section end  */
 }
 
 /*  Small devices (landscape phones, 576px and up) */
