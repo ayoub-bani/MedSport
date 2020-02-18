@@ -216,6 +216,18 @@ table {
 	}
 	/* leages logo end */
 	/*Leages section end  */
+	
+	/* section Med-Info start */
+	.med-info-content img {
+		height: 80px;
+		width: 125px;
+	}
+	.custom-font{
+		font-family: 'Roboto', sans-serif;
+		line-height: 1.4rem;
+
+	}
+	/* section Med-Info end */
 }
 
 /*  Small devices (landscape phones, 576px and up) */
