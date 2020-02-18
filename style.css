@@ -225,9 +225,34 @@ table {
 	.custom-font{
 		font-family: 'Roboto', sans-serif;
 		line-height: 1.4rem;
-
+	}
+	.facebook-color {
+		background-color: #3B5998;
+	}
+	.custom-follow-size {
+		height: 1.7rem;
+	}
+	.custom-follow-font {
+		font-family: 'Cairo', sans-serif;
+		font-weight: 100;
+	}
+	.youtube-color {
+		background-color: #FF0000;
+	}
+	.twitter-color {
+		background-color: #76A9EA;
+	}
+	.instagram-color {
+		background-color: black;
 	}
 	/* section Med-Info end */
+	/* footer start */
+	.custom-footer-color {
+		background-color: #4793E0;
+		font-family: 'Cairo', sans-serif;
+		font-weight: 100;
+	}
+	/* footer end */
 }
 
 /*  Small devices (landscape phones, 576px and up) */
